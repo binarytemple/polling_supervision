@@ -1,0 +1,17 @@
+{application, polling,
+  [
+    {description, ""},
+    {vsn, "1"},
+    {registered, []},
+    {applications, [
+      kernel,
+      stdlib,
+      syntax_tools,
+      compiler,
+      goldrush,
+      lager,
+      polling
+    ]},
+    {mod, {polling_app, []}},
+    {env, []}
+  ]}.
